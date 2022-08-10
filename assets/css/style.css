@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #07FE08;
+    font-family: 'Source Code Pro', monospace;
+}
+html {
+    font-size: 62.5%;
+    /* = 10px */
+}
+@font-face {
+    font-family: 'Source Code Pro', monospace;
+    src: local('Source Code Pro', monospace), url(Tag_24/assets/fonts/Source_Code_Pro/static/SourceCodePro-Regular.ttf);
+}
+h1 {
+    text-align: center;
+    padding-top: 2rem;
+}
+table {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+    border-collapse: collapse;
+    width: 50%;
+}
+th {
+    text-align: start;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    border-bottom: 1.5px solid #07FE08;
+    text-align: start;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+td {
+    border-bottom: 1.5px solid #07FE08;
+    text-align: start;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
